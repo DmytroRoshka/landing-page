@@ -1,7 +1,26 @@
+.header_header{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display:block;
+    background-color: rgba(193, 168, 131, 0.53);
+}
+
 .body{
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
     display:block;
+    background-color: blanchedalmond;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display:block;
+    background-color: rgba(193, 168, 131, 0.53);
 }
