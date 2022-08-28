@@ -3,5 +3,5 @@
     align-items: center;
     align-content: center;
     text-align: center;
-    display:block;
+    display:flex;
 }

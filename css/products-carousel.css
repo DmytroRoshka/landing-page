@@ -1,0 +1,13 @@
+.products-carousel__slides{
+    display: inline-flex;
+    align-items: center;
+    
+}
+/*.products-carousel__slides{
+    min-height: 300px;
+}
+
+.product__slide{
+    width: 50%;
+    margin: auto;
+}*/

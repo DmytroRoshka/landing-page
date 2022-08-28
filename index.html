@@ -10,15 +10,15 @@
 </head>
 
 <body>
-    <div><header class="header_header">
+    <header class="header_header">
         <img class="header_logo" src="img/tchibo_logo.svg" alt="tchiboo_logo">
         <ul class="header_list">
             <li><a href="#themenwelten">Themenwelten</a></li>
             <li><a href="#kategorien">Kategorien</a></li>
             <li><a href="#sale">Sale</a></li>
         </ul>
+        <div class="clock"></div>
     </header>
-    </div>
     <main class="body">
         <div class="head_top">
             <h1 class="head_name">
@@ -45,26 +45,14 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
         </div>
-        <div class="kaffeevollautomat_all">
-            <div><img class="anthrazit" src="img/tchibo-kaffeevollautomat-esperto-caffe-anthrazit.webp">
-            <p class="kaffeevollautomat_header">Tchibo Kaffeevollautomat</p>
-            <h4 class="kaffeevollautomat_type">Esperto Caffè, Ice Blue</h4>
-            <h3 class="price">219<span class="price_cent">00</span></h3>
-            </div>
-                <div><img class="blue" src="img/tchibo-kaffeevollautomat-esperto-caffe-ice-blue.webp">
-                    <p class="kaffeevollautomat_header">Tchibo Kaffeevollautomat</p>
-                    <h4 class="kaffeevollautomat_type">Esperto Caffè, Anthrazit</h4>
-                    <h3 class="price">219<span class="price_cent">00</span></h3>
-                </div>
-                    <div><img class="silber" src="img/tchibo-kaffeevollautomat-esperto-caffe-silber.webp">
-                        <p class="kaffeevollautomat_header">Tchibo Kaffeevollautomat</p>
-                        <h4 class="kaffeevollautomat_type">Esperto Caffè, Silber</h4>
-                        <h3 class="price">219<span class="price_cent">00</span></h3>
-                    </div>
+        <div class="products-carousel">
+            <button class="products-carousel__btn-prev">Prev</button>
+    <div class="products-carousel__slides"></div>
+    <button class="products-carousel__btn-next">Next</button>
         </div>
-
+        <div class="kaffeevollautomat_all"></div>
     </main>
-</body>
+
 <footer>
 
 <div class="footer">
@@ -78,7 +66,9 @@
 
 </div>
 
-
 </footer>
-
+<script src="js/clock.js"></script>
+<script src="js/product-list.js"></script>
+<script src="js/products-carousel.js"></script>
+</body>
 </html>
