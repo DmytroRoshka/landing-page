@@ -1,0 +1,14 @@
+.navigation{
+    justify-content:center;
+    align-items: center;
+    display:flex;
+    background-color: rgba(193, 168, 131, 0.53);
+}
+
+.navigation-pages{
+    display: inline-flex;
+}
+
+.navi_header{
+    margin: 15px;
+}
