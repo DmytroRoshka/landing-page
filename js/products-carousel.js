@@ -3,12 +3,21 @@
     const slides = [
         `<div class ='ptoduct__slide'>
         <img src="img/tchibo-kaffeevollautomat-esperto-caffe-anthrazit.webp" alt="Tchibo Kaffeevollautomat">
+        <h4 class="title">Tchibo Kaffeevollautomat</h4>
+        <h5 class="description">Esperto Caffè, Anthrazit</h5>
+        <h4 class="price">219<span class="price_cent">00</span><h4>
         </div>`,
         `<div class ='ptoduct__slide'>
         <img src="img/tchibo-kaffeevollautomat-esperto-caffe-ice-blue.webp" alt="Tchibo Kaffeevollautomat">
+        <h4 class="title">Tchibo Kaffeevollautomat</h4>
+        <h5 class="description">Esperto Caffè, Ice Blue</h5>
+        <h4 class="price">219<span class="price_cent">00<h4>
         </div>`,
         `<div class ='ptoduct__slide'>
         <img src="img/tchibo-kaffeevollautomat-esperto-caffe-silber.webp" alt="Tchibo Kaffeevollautomat">
+        <h4 class="title">Tchibo Kaffeevollautomat</h4>
+        <h5 class="description">Esperto Caffè, Silber</h5>
+        <h4 class="price">219<span class="price_cent">00<h4>
         </div>`
     ];
 
@@ -21,7 +30,7 @@
           const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
           slideContainer.innerHTML += slides[secondSlideIdx];
           if (window.innerWidth > 900){
-            const thirdSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
+            const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
             slideContainer.innerHTML += slides[thirdSlideIdx];
           }
         }

@@ -1,4 +1,4 @@
-(function(){
+/*(function(){
 
 const products = [
 {
@@ -40,6 +40,7 @@ function renderProducts (products){
     }
 }
 
+
 renderProducts(products);
 
-})();
+})();*/

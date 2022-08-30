@@ -5,7 +5,6 @@
         document.body.classList.toggle('lock');
         iconBurger.classList.toggle('active');
         navigationsBody.classList.toggle('active');
-
     });
 const navLinks = document.querySelectorAll('.navigation__link');
 navLinks.forEach((navLink) => {
