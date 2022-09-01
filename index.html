@@ -8,7 +8,6 @@
     <title>Tchiboo</title>
     <link rel="icon" href="img/icons/favicon.ico">
     <link rel="stylesheet" href="css/index.css">
-</head>
 
 <body>
     <header class="header_header">
@@ -17,28 +16,25 @@
         <img class="tchibo_logo" src="img/tchibo_logo.svg" alt="tchiboo-logo">
         <div class="clock"></div>
         <div class="topnav">
-                <a href="#home" class="active">All</a>
+        <a href="#home" class="active">All</a>
         <div id="myLinks">
            <a href="#themenwelten" class="navi_header">Themenwelten</a>
             <a href="#kategorien" class="navi_header">Kategorien</a>
            <a href="#sale" class="navi_header">Sale</a>
             </div>
             <a href="javascript:void(0);" class="icon"
-            onclick="myFunction()">
+            onclick=myFunction();
             <i class="fa fa-bars"></i>
         </a>
         </div>
         </nav>
     
     <main class="body">
+        
         <div class="head_top">
             <h1 class="head_name">
                 Aus Liebe zum Kaffee
             </h1>
-            <form action="https://www.freecodecamp.com/email-submit">
-                <input type="text" name="email" id="email" placeholder="Enter your email adress" required>
-                <button type="submit">Jetzt anmelden</button>
-            </form>
         </div>
         <div><h2 class="Design">Ein einzigartiges Design</h2>
         <p class="Kombination">Die perfekte Kombination aus herausragendem Stil, innovativer Technologie, Exzellenz und
@@ -63,25 +59,30 @@
         </div>
         <div class="kaffeevollautomat_all"></div>
     </div>
+    <div class="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.4109494888644!2d9.990139451992727!3d53.55043117992428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f1b87accf2f%3A0x3f9d24afe84a0263!2sRathaus!
+        5e0!3m2!1sde!2sde!4v1662033857750!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     </main>
-
+</body>
 <footer>
 
 <div class="footer">
     <h3 class="footer_haeder">Unsere Services</h3>
     <div class="footer_kategorie">
-    <div class="footer_service"><h4>Service & Hilfe</h4></div>
-    <div class="footer_lieferung"><h4>Lieferung</h4></div>
-    <div class="footer_zahlung"><h4>Zahlung</h4></div>
-    <div class="footer_über"><h4>Über Tchibo</h4></div>
-    </div>
-
-</div>
-
+    <div class="footer_service"><a href="footer_service">Service & Hilfe</a></div>
+    <div class="footer_lieferung"><a href="footer_lieferung">Lieferung</a></div>
+    <div class="footer_zahlung"><a href="footer_zahlung">Zahlung</a></div>
+    <div class="footer_über"><a href="footer_über">Über Tchibo</a></div>
+    <div class="form"><form action="mailto:dmytro.roshka13@gmail.com">
+        <input type="text" name="email" id="email" placeholder="Enter your email adress" required>
+        <button type="submit">Jetzt anmelden</button>
+    </form></div>
+    </div> </div>
+   
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script src="js/clock.js"></script>
 <script src="js/product-list.js"></script>
 <script src="js/products-carousel.js"></script>
 <script src="js/burger-menu.js"></script>
-</body>
+<script src="js/mail.js"
 </html>

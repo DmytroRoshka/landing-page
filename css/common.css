@@ -3,7 +3,7 @@
     align-items: center;
     align-content: center;
     text-align: center;
-    display:block;
+    /*display:block;*/
     background-color: blanchedalmond;
 }
 
@@ -12,6 +12,6 @@
     align-items: center;
     align-content: center;
     text-align: center;
-    display:block;
+    /*display:block;*/
     background-color: rgba(193, 168, 131, 0.53);
 }

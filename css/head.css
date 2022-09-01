@@ -1,7 +1,5 @@
-
-  .topnav {
+ .topnav {
     overflow: hidden;
-    /*background-color: rgba(170, 28, 226, 0.288);*/
     position: relative;
   }
   
@@ -10,7 +8,7 @@
   }
 
   .topnav a {
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -18,7 +16,7 @@
   }
   
   .topnav a.icon {
-    /*background: black;*/
+    background: rgba(0, 0, 0, 0.179);
     display: block;
     position: absolute;
     right: 0;
@@ -26,11 +24,10 @@
   }
   
   .topnav a:hover {
-   /* background-color: #ddd;*/
+   background-color: #ddd;
     color: white;
   }
   
   .active {
-   /* background-color: #04AA6D;*/
     color: white;
   }
