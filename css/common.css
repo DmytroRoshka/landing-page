@@ -1,17 +1,7 @@
-.body{
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    /*display:block;*/
-    background-color: blanchedalmond;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
-.footer{
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    /*display:block;*/
-    background-color: rgba(193, 168, 131, 0.53);
-}
+
