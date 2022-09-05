@@ -5,24 +5,11 @@
     align-content: center;
     text-align: center;
     background-color: rgba(193, 168, 131, 0.53);
+    padding: 30px;
 }
 
 .footer_kategorie{
-    display: inline-flex;
-}
-
-.footer_service{
-    width:25%;
-}
-   
-.footer_lieferung{
-    width:25%;
-}
-
-.footer_zahlung{
-    width: 25%;
-}
-
-.footer_über{
-    width: 25%;
+ color: var(--text-color);
+ text-decoration: none;
+ padding: 10px;
 }
