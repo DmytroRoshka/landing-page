@@ -1,6 +1,5 @@
-@import url(head.css);
+@import url(header.css);
 @import url(body.css);
 @import url(footer.css);
 @import url(common.css);
 @import url(products-carousel.css);
-@import url(navigation.css);

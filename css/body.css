@@ -3,11 +3,7 @@
     align-items: center;
     align-content: center;
     text-align: center;
-    /*display:block;*/
     background-color: blanchedalmond;
-}
-.kaffeevollautomat_all{
-    display:inline-flex;
 }
 .price{
     color: red;

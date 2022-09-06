@@ -1,4 +1,5 @@
 .products-carousel__slides{
     display: inline-flex;
     align-items: center;
+    padding-top: 20px;
 }
