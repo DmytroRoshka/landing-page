@@ -7,26 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tchiboo</title>
     <link rel="icon" href="img/icons/favicon.ico">
-    <link rel="stylesheet" href="css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body class="seite">
+
     <header class="header_header">
-        <nav class="navigation">
-            <img class="tchibo_logo" src="img/tchibo_logo.svg" alt="tchiboo-logo">
-            <div class="topnav">
-                <div id="myLinks">
-                    <a href="#themenwelten" class="navi_header">Themenwelten</a>
-                    <a href="#kategorien" class="navi_header">Kategorien</a>
-                    <a href="#sale" class="navi_header">Sale</a>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <img class="tchibo_logo" src="img/tchibo_logo.svg" alt="tchiboo-logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link disabled">Disabled</a>
                 </div>
-                <a href="javascript:void(0);" class="icon" onclick=myFunction();> <i class="fa fa-bars">Menu</i>
-                </a>
+              </div>
+              <div class="clock"></div>
+              <input type="search" placeholder="Suche" required>
             </div>
-            <div class="clock"></div>
-            <input type="search" placeholder="Suche" required>
-        </nav>
+          </nav>
     </header>
 
     <main>
