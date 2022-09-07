@@ -1,0 +1,14 @@
+#burger-checkbox{
+    display: none;
+}
+.footer_kontakt{
+    display: none;
+}
+#burger-checkbox :checked ~ .footer_kontakt{
+    display: flex;
+}
+/*@media (min-width: 600px){
+    .burger-icon{
+        display: none;
+    }
+}*/

@@ -20,7 +20,7 @@
                     <a href="#kategorien" class="navi_header">Kategorien</a>
                     <a href="#sale" class="navi_header">Sale</a>
                 </div>
-                <a href="javascript:void(0);" class="icon" onclick=myFunction(); <i class="fa fa-bars">Menu</i>
+                <a href="javascript:void(0);" class="icon" onclick=myFunction();> <i class="fa fa-bars">Menu</i>
                 </a>
             </div>
             <div class="clock"></div>
@@ -66,34 +66,33 @@
                     loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         </section>
     </main>
-</body>
 <footer>
-
-
-
     <div class="footer">
         <h3 class="footer_haeder">Unsere Services</h3>
-        <div class="footer_kategorie">
+        <div class="footer__kategorie">
             <a href="footer_service" class="footer_kategorie">Service & Hilfe</a>
             <a href="footer_lieferung" class="footer_kategorie">Lieferung</a>
             <a href="footer_zahlung" class="footer_kategorie">Zahlung</a>
             <a href="footer_über" class="footer_kategorie">Über Tchibo</a>
-            <div class="footer_kontakt"><a href="footer_kontakt" class="footer_kategorie">Kontakt:</a>
+            <label for="burger-checkbox" class="burger-icon">burger</label>
+            <input id="burger-checkbox" type="checkbox">
+            <div class="footer_kontakt">
+                <a href="footer_kontakt" class="footer_kategorie">Kontakt:</a>
                 <form action="https://formspree.io/f/xqkjezaq" method="POST">
                     <label>
-                        <p>Ihre Nachricht / Frage*</p>
+                        Ihre Nachricht / Frage*
                         <input class="input-area-want-to-see-more" type="text" placeholder="Nachricht / Frage"
                             name="Nachricht" required />
                     </label>
                     <br>
                     <label>
-                        <p>Ihre Telefonnummer*</p>
+                        Ihre Telefonnummer*
                         <input class="input-area-want-to-see-more" type="tel" placeholder="Telefonnummer"
                             name="Telefonnummer" required />
                     </label>
                     <br>
                     <label>
-                        <p>Ihre E-Mail-Adresse*</p>
+                        Ihre E-Mail-Adresse*
                         <input class="input-area-want-to-see-more" type="email" placeholder="E-Mail-Adresse"
                             name="email" required />
                     </label>
@@ -103,11 +102,12 @@
             </div>
         </div>
     </div>
-
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script src="js/clock.js"></script>
 <script src="js/product-list.js"></script>
 <script src="js/products-carousel.js"></script>
 <script src="js/burger-menu.js"></script>
-<script src="js/mail.js" </html>
+<script src="js/mail.js"></script>
+</body>
+</html>
