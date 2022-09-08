@@ -5,13 +5,11 @@
     background-color: rgba(193, 168, 131, 0.53);
     padding: 30px;
 }
-
 .footer_kategorie{
  color: var(--text-color);
  text-decoration: none;
  padding: 10px;
 }
-
 .footer_kategorie:hover{
     background-color:bisque;
 }

@@ -3,11 +3,8 @@
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
 }
-
 @media(max-width: 600px){
     .seite{
 color: rgb(79, 75, 47);
     }
 }
-
-

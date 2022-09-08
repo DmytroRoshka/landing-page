@@ -6,3 +6,6 @@
   padding: 15px;
   margin: 0 auto;
 }
+:root{
+  --bs-light-rgb: 227, 207, 181;
+}
